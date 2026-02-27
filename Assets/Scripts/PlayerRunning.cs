@@ -28,6 +28,8 @@ public class PlayerRunning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!GameState.Started) return;
+
         //Constant Forward Movement
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, rb.linearVelocity.y, forwardSpeed);
 
@@ -67,6 +69,9 @@ public class PlayerRunning : MonoBehaviour
     {
         forwardSpeed = 0f; // Stop the player from moving forward
         gameOverPanel.SetActive(true); // Show the Game Over UI panel
+        
+        FindFirstObjectByType<GameTimer>()?.StopAndShowFinish();
+
         Debug.Log("GAME OVER");
     }
 }

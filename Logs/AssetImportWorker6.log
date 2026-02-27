@@ -1,0 +1,284 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32680 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lorie" at "2026-02-27T06:00:15.1915824Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-27T06:00:15Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+58386
+-licensingIpc
+LicenseClient-Lorie
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape
+C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [50652]  Target information:
+
+Player connection [50652]  * "[IP] 192.168.0.118 [Port] 0 [Flags] 2 [Guid] 2947588357 [EditorId] 2947588357 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2C93LK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [50652]  * "[IP] 192.168.204.1 [Port] 0 [Flags] 2 [Guid] 2947588357 [EditorId] 2947588357 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2C93LK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [50652]  * "[IP] 192.168.11.1 [Port] 0 [Flags] 2 [Guid] 2947588357 [EditorId] 2947588357 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2C93LK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [50652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [50652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.8180
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              96eac6c792684f70b9b851a1e38a39a7
+  Correlation Id:          a395bc8de4b5f7ae8c9074bfb2b7f7b7
+  External correlation Id: 953941212313289095
+  Machine Id:              o2vLGIsI134itj3iVXTYx4hQCI4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Lorie" (connect: 0.00s, validation: 0.00s, handshake: 0.69s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lorie-notifications" at "2026-02-27T06:00:15.8824903Z"
+[Licensing::Module] Licensing Background thread has ended after 0.69s
+[Licensing::Module] Licensing is initialized (took 0.02s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475857958793-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.021422 seconds.
+- Loaded All Assemblies, in  0.359 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 187 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 908ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (268ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1247ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6188 unused Assets / (4.2 MB). Loaded Objects now: 7006.
+Memory consumption went from 145.2 MB to 140.9 MB.
+Total: 6.682300 ms (FindLiveObjects: 0.569400 ms CreateObjectMapping: 0.309700 ms MarkObjects: 4.349000 ms  DeleteObjects: 1.453700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236682.132061 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_A_Height.png
+  artifactKey: Guid(10ceb76f10e300747a3e1be3c35f64c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_A_Height.png using Guid(10ceb76f10e300747a3e1be3c35f64c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80fc55c82a894bff69a83d1ef4a951b4') in 0.1017803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_Height.png
+  artifactKey: Guid(fc7bf058101db524e9667f074d338ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_Height.png using Guid(fc7bf058101db524e9667f074d338ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ee7b729fc17e1a6ca0d6544088181e8') in 0.0176493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_AO.png
+  artifactKey: Guid(510237fea2ab4704ab5c5a0b5946020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_AO.png using Guid(510237fea2ab4704ab5c5a0b5946020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f0bec41d1bd7982d7644dfd04e7cbf1') in 0.0265921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_B_Metallic.png
+  artifactKey: Guid(1429a2df3b1722e4e8a9d61ccab2895e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_B_Metallic.png using Guid(1429a2df3b1722e4e8a9d61ccab2895e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8df752a6cefadb48b26cdaea823594bc') in 0.0114758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.363624 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_A_Basecolor_B.png
+  artifactKey: Guid(288e1f131a8c1e84c86e2aa0338d318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_A_Basecolor_B.png using Guid(288e1f131a8c1e84c86e2aa0338d318f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33801e532d687d5871c94cd76ae82b26') in 0.0436217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_A_Normal.png
+  artifactKey: Guid(b886935015f014443933dd953d7e8b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_A_Normal.png using Guid(b886935015f014443933dd953d7e8b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953ae8c36402d623796fd25e2ff67904') in 0.0368508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_B_Height.png
+  artifactKey: Guid(3474203d2bc187940ab3d3022d6556c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_B_Height.png using Guid(3474203d2bc187940ab3d3022d6556c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67c978c3c9c5c3c4e44897b1795dbe13') in 0.0178564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

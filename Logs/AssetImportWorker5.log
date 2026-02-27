@@ -1,0 +1,868 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32680 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lorie" at "2026-02-27T05:23:14.5606988Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-27T05:23:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+58386
+-licensingIpc
+LicenseClient-Lorie
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape
+C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [31328]  Target information:
+
+Player connection [31328]  * "[IP] 192.168.0.118 [Port] 0 [Flags] 2 [Guid] 1430911841 [EditorId] 1430911841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2C93LK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31328]  * "[IP] 192.168.204.1 [Port] 0 [Flags] 2 [Guid] 1430911841 [EditorId] 1430911841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2C93LK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31328]  * "[IP] 192.168.11.1 [Port] 0 [Flags] 2 [Guid] 1430911841 [EditorId] 1430911841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2C93LK8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lorie/Documents/GitHub/Individual-Web-Project/ZombieEscape/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.8180
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              1dc18733515b44259936349dbad4cbf4
+  Correlation Id:          a395bc8de4b5f7ae8c9074bfb2b7f7b7
+  External correlation Id: 8909885339066146025
+  Machine Id:              o2vLGIsI134itj3iVXTYx4hQCI4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Lorie" (connect: 0.00s, validation: 0.00s, handshake: 0.89s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lorie-notifications" at "2026-02-27T05:23:15.4577672Z"
+[Licensing::Module] Licensing Background thread has ended after 0.90s
+[Licensing::Module] Licensing is initialized (took 0.01s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475857958793-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.010645 seconds.
+- Loaded All Assemblies, in  0.417 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 262 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.695 seconds
+Domain Reload Profiling: 1110ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (157ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (648ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (354ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.779 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 1770ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (996ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6188 unused Assets / (2.0 MB). Loaded Objects now: 7005.
+Memory consumption went from 145.0 MB to 143.1 MB.
+Total: 13.668300 ms (FindLiveObjects: 1.196800 ms CreateObjectMapping: 1.522900 ms MarkObjects: 8.306600 ms  DeleteObjects: 2.640600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 234455.092705 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks
+  artifactKey: Guid(014fa308bef7f344f99c7e498f773332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks using Guid(014fa308bef7f344f99c7e498f773332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62acad0f9e58c7e509b69c89f2602fa8') in 0.0743939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_Basecolor_B.png
+  artifactKey: Guid(49511ffb2d76db440a4011308f286b06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_Basecolor_B.png using Guid(49511ffb2d76db440a4011308f286b06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6a3fd6fd931c7fbd2f1d3cc2448da3d') in 0.0930478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat
+  artifactKey: Guid(de88005d1f5e1554494e69b81da77235) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Materials/Rocks_Volcanic_C.mat using Guid(de88005d1f5e1554494e69b81da77235) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e2f937132725588aa52d06691679ff4') in 0.0523531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerYellow_A_Basecolor.png
+  artifactKey: Guid(4c8014b956345774d93bb7dea1435ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerYellow_A_Basecolor.png using Guid(4c8014b956345774d93bb7dea1435ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71d7cd03cc6704f9ddf71701e28f71bb') in 0.013552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_AO.png
+  artifactKey: Guid(c8493d80146b01f4f9d23367b40e5fb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_AO.png using Guid(c8493d80146b01f4f9d23367b40e5fb3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4486fb50dad235f886f4a08c9d2b7196') in 0.0153672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_B.mat
+  artifactKey: Guid(0fd41b82b4608c84aa03280b40065be9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerPurple_B.mat using Guid(0fd41b82b4608c84aa03280b40065be9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b50ca1265ce082c692a2534a3bd661f') in 0.0187785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerPurple_A_Basecolor.png
+  artifactKey: Guid(26408f3456289d04583fce2a70b66d98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerPurple_A_Basecolor.png using Guid(26408f3456289d04583fce2a70b66d98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94f5572643ac73afe894c47cec720051') in 0.0143382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat
+  artifactKey: Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat using Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af370e2a8c1d9ebe346ac1fe52454438') in 0.0183815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerRed_A_metallic.png
+  artifactKey: Guid(0d20e60878e03064895be0106f3af2c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerRed_A_metallic.png using Guid(0d20e60878e03064895be0106f3af2c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff3cc987076a53a9189aea6c30881037') in 0.0156841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures
+  artifactKey: Guid(3419957ef37569a42b60b5fbc59cc6c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures using Guid(3419957ef37569a42b60b5fbc59cc6c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8146362427d40d97b65f6ad9feb5032') in 0.0086149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_B.mat
+  artifactKey: Guid(ba2226aa273afb94eb9a2b21f04369a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Material/Grass_Flower_Tint_01_FlowerBlue_B.mat using Guid(ba2226aa273afb94eb9a2b21f04369a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '401312fea0eb17143fa123c17ee6053b') in 0.0179621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_A_AO.png
+  artifactKey: Guid(533fe4c6aee079c4686814301cc9f758) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_A_AO.png using Guid(533fe4c6aee079c4686814301cc9f758) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3edc2ac35b2d9ca201bf2f8a03790ec3') in 0.0146707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Textures/Wall_Stone_C_Height.png
+  artifactKey: Guid(11a916f74a93ba74dbe74f6742bc177e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Textures/Wall_Stone_C_Height.png using Guid(11a916f74a93ba74dbe74f6742bc177e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93538e48c053235b58176b6a05460d8a') in 0.0154876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/UnderRoof_RoundTile_Bump_D.mat
+  artifactKey: Guid(41ad39fa4b7eb0342a47f123742a5a79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/UnderRoof_RoundTile_Bump_D.mat using Guid(41ad39fa4b7eb0342a47f123742a5a79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '480eb4507c0b518db156463cd61c0bf9') in 0.0185836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures/UnderRoof_RoundTile_Bump_Basecolor_C.png
+  artifactKey: Guid(8efeebde11aa5f84f8d9d3da311d50a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures/UnderRoof_RoundTile_Bump_Basecolor_C.png using Guid(8efeebde11aa5f84f8d9d3da311d50a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ee06ac1ccc30530bfd5909ff6d21a73') in 0.0163058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures/Roof_RoundTile_Bump_Basecolor_A.png
+  artifactKey: Guid(8d597e05d3adf144fbdc3013e95e4bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures/Roof_RoundTile_Bump_Basecolor_A.png using Guid(8d597e05d3adf144fbdc3013e95e4bdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18ec654896b4c104dc6d03e7ee62a45d') in 0.0144303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_height.png
+  artifactKey: Guid(59f512951b3979d498aea3bb88d8806d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_height.png using Guid(59f512951b3979d498aea3bb88d8806d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '257b8da1b394a981b38b7aaca0805286') in 0.014386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_A_Height.png
+  artifactKey: Guid(4b4007d4480d3084f93c26751da1edf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_A_Height.png using Guid(4b4007d4480d3084f93c26751da1edf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '362c22274099a0081a36a918d64a289a') in 0.0157597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Textures/Roof_Hay_Normal.png
+  artifactKey: Guid(d2e055fe3522cdc458673c9d92a7bbfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_Hay/Textures/Roof_Hay_Normal.png using Guid(d2e055fe3522cdc458673c9d92a7bbfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df68b7c5294a9cfd541574e41523b7c4') in 0.0139558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture
+  artifactKey: Guid(3ec1619ed0b177d43a61a3ecde583f9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture using Guid(3ec1619ed0b177d43a61a3ecde583f9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '622614350a12ed42b1aa791b31e67f61') in 0.0070318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Textures/UnderRoof_RoundTile_Flat_Basecolor_C.png
+  artifactKey: Guid(cca0caec184886544ae2ca12e90708dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Textures/UnderRoof_RoundTile_Flat_Basecolor_C.png using Guid(cca0caec184886544ae2ca12e90708dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79474f8eacbf03fc16207187c6343fdc') in 0.0145883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_AO.png
+  artifactKey: Guid(438719456ebb7dc44b22000c4571a4ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_AO.png using Guid(438719456ebb7dc44b22000c4571a4ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '706ea97e4885b4aeb30881cde162e6c7') in 0.0116657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerRed_A_Height.png
+  artifactKey: Guid(a5a70bcfc54f2994eb854ed43c7be87a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerRed_A_Height.png using Guid(a5a70bcfc54f2994eb854ed43c7be87a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b7e734f02ef8206c8ece511ad71cd6b') in 0.0131331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_AO.png
+  artifactKey: Guid(fc3b5af5bc73abe4d8205b262790f62e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_AO.png using Guid(fc3b5af5bc73abe4d8205b262790f62e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '160dab51d1b59e4b49293ccf154b1dd3') in 0.0159264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_A.mat
+  artifactKey: Guid(c3c8b2e7507849f43a31e15b9d7c3dc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_A_BC_A.mat using Guid(c3c8b2e7507849f43a31e15b9d7c3dc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '710c0db8cf68ade293728532482b1b76') in 0.0210155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_Base_Metallic.png
+  artifactKey: Guid(3612b8b0d2379d04a9c5b30f2045fd67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_Base_Metallic.png using Guid(3612b8b0d2379d04a9c5b30f2045fd67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddfe2b262afadf60f65a61605fa9a647') in 0.0149438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerYellow_B_Metallic.png
+  artifactKey: Guid(4ff36c5810052c540a1414e2bc800a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerYellow_B_Metallic.png using Guid(4ff36c5810052c540a1414e2bc800a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e0b6fd8333aa28313192fe4539aaceb') in 0.0145011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat
+  artifactKey: Guid(38eaf5109156569489bf8f2929fd35a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Materials/Rocks_Cliff_B_BC_B.mat using Guid(38eaf5109156569489bf8f2929fd35a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '250bb25b22d21a5f3bcd17d5bf4faf3f') in 0.0172145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerRed_B_metallic.png
+  artifactKey: Guid(7f5000f355ed0c345b28f13a66f0f426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerRed_B_metallic.png using Guid(7f5000f355ed0c345b28f13a66f0f426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e45d538af2c837a681b2f8da6c67cc3') in 0.0159227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_Base_AO.png
+  artifactKey: Guid(d44b96bea76dbd8449f8a75a6be91383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_Base_AO.png using Guid(d44b96bea76dbd8449f8a75a6be91383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55871b78ab83409c172ad0ab3222d93c') in 0.0163202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_Metallic.png
+  artifactKey: Guid(6f6d30f2b1eb4e04e8e9277f5fe0fde4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_Metallic.png using Guid(6f6d30f2b1eb4e04e8e9277f5fe0fde4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '450e649ac287fec0923206c89fb87d01') in 0.0157197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png
+  artifactKey: Guid(8e04de8547435554b8c484ffb2af8cab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png using Guid(8e04de8547435554b8c484ffb2af8cab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '329edf802b76e09535bf64b8a16d6cf4') in 0.0162607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Textures/Wood_Plain_B_Normal.png
+  artifactKey: Guid(9eda61f8f7af76a4ca831e5ec3aa67ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Textures/Wood_Plain_B_Normal.png using Guid(9eda61f8f7af76a4ca831e5ec3aa67ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cc713ce6ab66ff73f126cc45a41ba1e') in 0.0166485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Height.png
+  artifactKey: Guid(90e365f3a60aa554bbaff50bb8567dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Height.png using Guid(90e365f3a60aa554bbaff50bb8567dde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c2fa300da03c1af64588a6db36ff559') in 0.0150238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures
+  artifactKey: Guid(ded40a3a8efaace4384304c2ffcbb186) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures using Guid(ded40a3a8efaace4384304c2ffcbb186) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a91d6858fba87859f25736b2d8e26eb2') in 0.0082505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png
+  artifactKey: Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png using Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '216c2e7dd2b5607296a1d65f41eb44db') in 0.0142043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_Base_Height.png
+  artifactKey: Guid(3754701c0ba5f5e4db943f12dfb81cab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_Base_Height.png using Guid(3754701c0ba5f5e4db943f12dfb81cab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '679dcad52933ce567f533359ccb6c42e') in 0.0131455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_AO.png
+  artifactKey: Guid(f7f1d2a9ada49584d83fd0238d35adb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_AO.png using Guid(f7f1d2a9ada49584d83fd0238d35adb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc50bf29d56ba1f4c3a1fe2104bdb62f') in 0.0162599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/UnderRoof_RoundTile_Bump_A.mat
+  artifactKey: Guid(6f66498e9b1c3b24eaddc0b5d10c2559) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Materials/UnderRoof_RoundTile_Bump_A.mat using Guid(6f66498e9b1c3b24eaddc0b5d10c2559) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ae145cecffd3af8a6db3b3b63861824') in 0.0170028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_Metallic.png
+  artifactKey: Guid(dabc0949a9d53ac489a6a38ebef3dd8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_Metallic.png using Guid(dabc0949a9d53ac489a6a38ebef3dd8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '460108eb6ab57a6770490b2f9bbb2444') in 0.0156088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Height.png
+  artifactKey: Guid(d991ba51443f1ce4880788849e30dc44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Height.png using Guid(d991ba51443f1ce4880788849e30dc44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccb04ff30237ac5499e079ee6b548750') in 0.0140504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Metallic.png
+  artifactKey: Guid(fe3f8e1c9353d3a46bf8548c1956529f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Metallic.png using Guid(fe3f8e1c9353d3a46bf8548c1956529f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e10abf342938a46de74152d620370220') in 0.0134248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerRed_B_Basecolor.png
+  artifactKey: Guid(4edd444daa6565646b98180ec3d6e512) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Texture/Grass_Flower_Tint_02_FlowerRed_B_Basecolor.png using Guid(4edd444daa6565646b98180ec3d6e512) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da987193d555a4fad814beb28731b5bd') in 0.0146693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Textures/Wall_Stone_C_Normal.png
+  artifactKey: Guid(b09fab64da4f9a14fa70faa21fbff23b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Textures/Wall_Stone_C_Normal.png using Guid(b09fab64da4f9a14fa70faa21fbff23b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '591dd011e33616233bb6d97fa579fba3') in 0.0153583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures
+  artifactKey: Guid(f91e7973659c60f47b0e2868555a95e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures using Guid(f91e7973659c60f47b0e2868555a95e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8426f1038efeed0dc547f3fb0f79f099') in 0.0092023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Basecolor.png
+  artifactKey: Guid(464397aea913d01409f3d8329f26b705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Basecolor.png using Guid(464397aea913d01409f3d8329f26b705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49c8dec4b52ae2106a2529e1dccce111') in 0.0137262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_Basecolor.png
+  artifactKey: Guid(feea2cf97829c484a9cecfa8a63aba3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_C_Basecolor.png using Guid(feea2cf97829c484a9cecfa8a63aba3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3ed51934eef0c7f9014ffaf9d2189eb') in 0.0142941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_B_Normal.png
+  artifactKey: Guid(1230e8b59470d3f44ab4f69c009911f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Volcanic/Textures/Rock_Volcanic_B_Normal.png using Guid(1230e8b59470d3f44ab4f69c009911f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2750d190b3e1eaf23640f7fb0593613') in 0.0133686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Textures/Sand_Beach_Shell_Height.png
+  artifactKey: Guid(c213cd61fd440534abb37e89c30a459c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Textures/Sand_Beach_Shell_Height.png using Guid(c213cd61fd440534abb37e89c30a459c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05da7532a629f08394b26a66999cbd29') in 0.0124709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_B.mat
+  artifactKey: Guid(1106203a3a01f624991504eb0837a5d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Materials/Roof_SquareTile_Bump_B.mat using Guid(1106203a3a01f624991504eb0837a5d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4a882bc63052f2d9d2ae550e99c133e') in 0.0187516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Textures/UnderRoof_RoundTile_Flat_Basecolor_A.png
+  artifactKey: Guid(c36cd2cecbf2b3b40a9a82e6f5972490) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat/Textures/UnderRoof_RoundTile_Flat_Basecolor_A.png using Guid(c36cd2cecbf2b3b40a9a82e6f5972490) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e057f4672febcb5d61d6d070c3940d1e') in 0.0137566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat
+  artifactKey: Guid(de0b402edcfa9d34b967fbef1f5e06f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Flat using Guid(de0b402edcfa9d34b967fbef1f5e06f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12e41bd41f9af5b0252f420b21668975') in 0.0078985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_B_Metallic.png
+  artifactKey: Guid(6e3487ecc879d37429ecba836cef25e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures/Rocks_Cliff_B_Metallic.png using Guid(6e3487ecc879d37429ecba836cef25e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eba906e0235212746ec5dfa6bde290f8') in 0.0137363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_Metallic.png
+  artifactKey: Guid(ae4347e98291d8448a3be47ec58facc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_Metallic.png using Guid(ae4347e98291d8448a3be47ec58facc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e454c9d9ca86c722ab993bf841d2da1') in 0.0136752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerPurple_A_Metallic.png
+  artifactKey: Guid(09fece92a00d3ae4e9844f829145d525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerPurple_A_Metallic.png using Guid(09fece92a00d3ae4e9844f829145d525) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63bafdd1172c84cd3c230117291e8ab4') in 0.0159184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_Normal.png
+  artifactKey: Guid(b79e55baabc9c1348b306299f4570493) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/Roof_SquareTile_Flat_Normal.png using Guid(b79e55baabc9c1348b306299f4570493) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc9f5b827df4b549765556bd87271359') in 0.0160499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerBlue_B.mat
+  artifactKey: Guid(42baaf87d7ee9524dabc246e0cdf08e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerBlue_B.mat using Guid(42baaf87d7ee9524dabc246e0cdf08e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5213b38d02c176fb89215613fba2422d') in 0.0183299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures
+  artifactKey: Guid(efb0afe057d13b0468485cf0d2d3b87d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROCKS/ROCKS_Cliff/Textures using Guid(efb0afe057d13b0468485cf0d2d3b87d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9423bd34d6a8cf32513439e44c82f251') in 0.0090897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cartoon_Texture_Pack/_MaterialLibrary/Cartoon_Texture_PresentationSettings.lighting
+  artifactKey: Guid(616b817186ae07349afb725731ed0fb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/_MaterialLibrary/Cartoon_Texture_PresentationSettings.lighting using Guid(616b817186ae07349afb725731ed0fb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c3b4372ba3cb7801156c9c7de754486') in 0.0181548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials
+  artifactKey: Guid(fa74eba23bef46a45b82a662ab2386bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials using Guid(fa74eba23bef46a45b82a662ab2386bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eade5e8349262b077abc2d9a7b9a38b0') in 0.0083239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Textures/Wood_Plain_B_Height.png
+  artifactKey: Guid(137d3b844a3adc347ad2d95f171d9556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Textures/Wood_Plain_B_Height.png using Guid(137d3b844a3adc347ad2d95f171d9556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8605562cee62f3e51742d22568f5ec35') in 0.0175347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Materials/Wood_Planks_B.mat
+  artifactKey: Guid(0744bcab18e19e444b1498ebfd1b47b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Planks/Materials/Wood_Planks_B.mat using Guid(0744bcab18e19e444b1498ebfd1b47b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8621d8fbe28fbd5f45124ae673e67bbe') in 0.0188276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/UnderRoof_SquareTile_Flat_Height.png
+  artifactKey: Guid(80bd86b80cb2b17409ac2c0ad4cff289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Textures/UnderRoof_SquareTile_Flat_Height.png using Guid(80bd86b80cb2b17409ac2c0ad4cff289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3e29e23836a741f17be8475efbb79a5') in 0.0143263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Textures/Roof_SquareTile_Bump_Metallic.png
+  artifactKey: Guid(2dcbbcd50a204574ea3a7945c9fb356e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Bump/Textures/Roof_SquareTile_Bump_Metallic.png using Guid(2dcbbcd50a204574ea3a7945c9fb356e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16696dc38e9d34d49a5b885263e87905') in 0.0163932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Materials/Sand_Beach_Base.mat
+  artifactKey: Guid(98e3d348c55e6a244b34dd502d9ed4cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Materials/Sand_Beach_Base.mat using Guid(98e3d348c55e6a244b34dd502d9ed4cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fcafb47500a641efffe52abc89059de') in 0.0182008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Textures/Sand_Beach_Shell_Basecolor.png
+  artifactKey: Guid(cdaa0c60fdc92ed47af5eb4257f20c89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Beach/Textures/Sand_Beach_Shell_Basecolor.png using Guid(cdaa0c60fdc92ed47af5eb4257f20c89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7a0e101fb2eefa843c0f205b38e8763') in 0.0155794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Textures/Wood_Plain_A_Normal.png
+  artifactKey: Guid(d75cc61607184b74a943c51221201ec3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/WOOD/WOOD_Plain/Textures/Wood_Plain_A_Normal.png using Guid(d75cc61607184b74a943c51221201ec3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2186ce2292d236a06127c6bd959f09dd') in 0.019149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures
+  artifactKey: Guid(cece1b65eb1e18a46a5e2d7be0b69561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures using Guid(cece1b65eb1e18a46a5e2d7be0b69561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '857f57330dcc39879bdf3524460bb64b') in 0.0097966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_Base_Normal.png
+  artifactKey: Guid(83f04189368ddb343b6e3eca6f1de874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_Base_Normal.png using Guid(83f04189368ddb343b6e3eca6f1de874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31ca718d7593ab1f59fe71f71dc32040') in 0.0155282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_B.mat
+  artifactKey: Guid(7cdafb159eb941a45ac8fb89a05295a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_B.mat using Guid(7cdafb159eb941a45ac8fb89a05295a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '354f34df481a9430b6757aedd140c930') in 0.017095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerRed_A_Basecolor.png
+  artifactKey: Guid(07f44d4cc88d7a14e9ef3821380ae9c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_01/Texture/Grass_Flower_Tint_01_FlowerRed_A_Basecolor.png using Guid(07f44d4cc88d7a14e9ef3821380ae9c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40486d37305b87d8b03fc8f9da7591e9') in 0.0144079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures/UnderRoof_RoundTile_Bump_Basecolor_D.png
+  artifactKey: Guid(d2c04fe9fb9fdea4f9b4f15b463a2b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_RoundTile_Bump/Textures/UnderRoof_RoundTile_Bump_Basecolor_D.png using Guid(d2c04fe9fb9fdea4f9b4f15b463a2b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fe336c1a68b3a5dc0b3470a4673d820') in 0.0144006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Materials
+  artifactKey: Guid(b3744e17b3188c3458c4a091637a0150) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/SAND/SAND_Underwater/Materials using Guid(b3744e17b3188c3458c4a091637a0150) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0657fec2d545047850611f6fc4a12788') in 0.0095625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_C.mat
+  artifactKey: Guid(5b53326592145ba4aaa2a078140b26f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cartoon_Texture_Pack/ROOF/ROOF_SquareTile_Flat/Materials/Roof_SquareTile_Flat_C.mat using Guid(5b53326592145ba4aaa2a078140b26f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321f73bfba53a5834a277c4908abbfd3') in 0.0171442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.784541 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerPurple_A.mat
+  artifactKey: Guid(8e88134442e7a9248a99f59bbd172423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Flower/GRASS_Flower_Tint_02/Material/Grass_Flower_Tint_02_FlowerPurple_A.mat using Guid(8e88134442e7a9248a99f59bbd172423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c05626aec6a82a7091f4cfbfc5ecd7f5') in 0.4082317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.852957 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat
+  artifactKey: Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat using Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71bf886c6a9fad72dc01be0a9de6739b') in 0.039424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.863493 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_C.png
+  artifactKey: Guid(84a0082a671cb3642819cc69b89b9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_C.png using Guid(84a0082a671cb3642819cc69b89b9353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1234b39dbddca6fa50d10c227fbeab7e') in 0.0272553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png
+  artifactKey: Guid(8e04de8547435554b8c484ffb2af8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Metallic.png using Guid(8e04de8547435554b8c484ffb2af8cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f3cc500571ce77bf6ac55acb8d17bda') in 0.0376686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Metallic.png
+  artifactKey: Guid(f08728fc48f69d043ade98c5d8bd7de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Metallic.png using Guid(f08728fc48f69d043ade98c5d8bd7de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '957a41b0986d00d94dd83e4445efd5ea') in 0.0191913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Height.png
+  artifactKey: Guid(8342664333482734c81dc32fe1b316f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Height.png using Guid(8342664333482734c81dc32fe1b316f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59c1c9e30c49a71396bc2f94e8e5b6f0') in 0.0257337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
