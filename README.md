@@ -20,7 +20,7 @@ Objective
 
 - Survive as long as possible while avoiding zombies and obstacles to achieve the highest possible run time.
 
-- Controls (Mobile – Primary Controls)
+- Controls (Mobile - Primary Controls)
 
 - Tap the Left (<) button to move one lane left
 
