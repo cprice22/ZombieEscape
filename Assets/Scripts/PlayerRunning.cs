@@ -1,4 +1,4 @@
-using UnityEditor.Experimental.GraphView;
+//using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerRunning : MonoBehaviour
@@ -55,6 +55,12 @@ public class PlayerRunning : MonoBehaviour
     {
         currentLane += direction;
         currentLane = Mathf.Clamp(currentLane, 0, 2);
+    }
+
+    //Change to mobile
+    public void ChangeLanePublic(int direction)
+    {
+        ChangeLane(direction);
     }
 
      void OnCollisionEnter(Collision collision)
