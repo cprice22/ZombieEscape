@@ -9,6 +9,7 @@
 - Tested On: Windows 11 (Editor testing) & Samsung Galaxy S9+ Android mobile device (Build & Run testing)
 
 **How to Play**
+
 Objective
 - Survive as long as possible while avoiding zombies and obstacles to achieve the highest possible run time.
 
@@ -48,10 +49,12 @@ Pause Control
  - Opens the pause menu
 
 Game Over Interaction
+
 When the player collides with a zombie:
  - Movement stops
  - Timer stops
  - Game Over screen appears
+
 From here, the player can:
  - Return to the main menu
 
